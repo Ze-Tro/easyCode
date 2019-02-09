@@ -1,0 +1,19 @@
+.hidden {
+	display: none;
+}
+
+.warningMessage {
+	position: relative;
+	top: -30px;
+	background-color: red;
+	border: 1px solid #656565;
+	border-radius: 3px;
+	text-align: center;
+	box-shadow: 1px 1px 7px 0px;
+}
+
+.warningMessage__text {
+	padding: 2px 10px;
+	font-size: 1.2em;
+	line-height: 1.2;
+}
