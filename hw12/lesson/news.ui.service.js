@@ -77,7 +77,8 @@ class NewsUI {
 		cardAction.classList.add('card-action');
 		const cardActionLink = document.createElement('a');
 		cardActionLink.setAttribute('href', `${article.url}`);
-		cardActionLink.setAttribute('target', '_blank');cardAction.appendChild(cardActionLink);
+		cardActionLink.setAttribute('target', '_blank');
+		cardAction.appendChild(cardActionLink);
 		
 		cardContent.appendChild(spanCardTitle);
 		cardContent.appendChild(paragraphContent);
